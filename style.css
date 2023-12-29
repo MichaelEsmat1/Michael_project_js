@@ -1,0 +1,277 @@
+body {
+  background-color: #f5f6f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Header begin */
+/* nav begin */
+.badge:after {
+  content: attr(value);
+  font-size: 12px;
+  background: #00adb5;
+  border-radius: 50%;
+  padding: 3px;
+  position: relative;
+  left: -8px;
+  top: -10px;
+  opacity: 0.9;
+}
+.header .navbar {
+  background-color: black;
+  color: #eeeeee;
+  overflow: hidden;
+}
+.header .navbar h2 {
+  float: left;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding-left: 10px;
+  overflow: hidden;
+  float: right;
+}
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+.header .navbar ul li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.header .navbar ul li a:hover {
+  color: #00adb5;
+}
+
+.spanlogo {
+  color: #00adb5;
+}
+/* nav end */
+
+#div1 {
+  text-align: center;
+  padding: 10px;
+}
+#div2 {
+  text-align: center;
+  padding: 10px;
+}
+#img1 {
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 8px;
+}
+#mybtn1,
+#mybtn2 {
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+
+.container {
+  text-align: center;
+}
+.play {
+  background-color: #a23710;
+}
+.stop {
+  background-color: #a23710;
+}
+/* start features */
+.features {
+  overflow: hidden;
+  margin: 20px;
+}
+
+.features .feat {
+  border-radius: 10px;
+  float: left;
+  width: 48%;
+  height: 150px;
+  background-color: #a23710;
+  color: white;
+  font-size: 16px;
+  margin: 7px;
+  padding: 6px;
+}
+
+.features .feat h2 {
+  text-transform: uppercase;
+}
+/* end features */
+/* start filter */
+/* start filter tabs */
+.tabs {
+  display: flex;
+  list-style: none;
+}
+
+.tabs button {
+  border: 1px solid gainsboro;
+  padding: 10px;
+  width: 100px;
+
+  background-color: rgb(220, 191, 149);
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+}
+.tabs button.active,
+.tabs button:hover {
+  background-color: black;
+
+  color: #eeeeee;
+}
+
+.filtercontent {
+  text-align: center;
+
+  background-color: #e3e3e3;
+}
+.filtercontent > div {
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  margin: 12px;
+  font-family: arial;
+  border-radius: 5px;
+}
+.card img {
+  width: 75%;
+  height: 30%;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  background-color: #222831;
+  text-align: center;
+  cursor: pointer;
+
+  width: 100%;
+  font-size: 14px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/* end filter */
+
+/* start footer*/
+.footer {
+  margin-top: 2px;
+  background-color: black;
+  color: #eeeeee;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.footer ul {
+  list-style: none;
+  float: left;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer span {
+  float: right;
+}
+
+.footer a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.footer ul :hover {
+  color: #00adb5;
+}
+/* end footer*/
+/* contact us page start */
+
+.contContainer {
+  border-radius: 5px;
+  background-color: #9a4c28;
+  padding: 100px;
+  width: 60%;
+  margin: auto;
+}
+
+.contactUsP {
+  text-align: center;
+}
+
+.formCont {
+  text-align: center;
+}
+
+form > input,
+#subject {
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  display: block;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+#sub {
+  border: none;
+  margin-top: 40px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 14px;
+}
+
+.errorMsg {
+  margin: auto;
+  padding: 0;
+  background-color: rgb(220, 191, 149);
+  color: black;
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+/* contact us page end */
+.hidden {
+  display: none;
+}
+#cartcount a {
+  color: black;
+}
